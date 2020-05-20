@@ -1,3 +1,19 @@
 /* You can add custom styles here. */
 
+$color-link: rgb(154, 159, 165) !default;
+$color-visited-link:  rgb(100, 100, 100) !default;
+
+
+a {
+    text-decoration: none;
+
+}
+
+a:active {
+    text-decoration: line-through;
+}
+
+a:visited {
+   text-decoration: line-through; 
+}
 // @import "plugins/numbered";

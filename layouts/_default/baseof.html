@@ -19,7 +19,9 @@
       </header>
 
       {{ partial "docs/inject/content-before" . }}
-      {{ template "main" . }} <!-- Page Content -->
+      {{ template "main" . }}
+    
+      <!-- Page Content -->
       {{ partial "docs/inject/content-after" . }}
 
       <footer class="book-footer">

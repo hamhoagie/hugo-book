@@ -4,7 +4,9 @@
     <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
   </dt>
   <dd>
-    {{ default .Summary .Description }}
+    {{ default .Summary }}
+    <br />
+    {{ default .Description }}
   </dd>
 {{ end }}
 </dl>

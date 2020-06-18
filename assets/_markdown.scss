@@ -128,7 +128,10 @@
   ul,
   ol {
     padding-inline-start: $padding-16 * 2;
+    list-style-type: none;
+    margin-left: -2em;
   }
+  
 
   dl {
     dt {

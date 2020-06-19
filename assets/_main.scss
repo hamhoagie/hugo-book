@@ -37,9 +37,12 @@ a {
 
 a:hover {
   &::after { 
-    content: " 🍔" };
+    content: " 🌭 "
+  };
   text-decoration: none;
 }
+
+
 
 img {
   vertical-align: baseline;
@@ -92,22 +95,31 @@ ul.pagination {
 
 .book-brand {
   font-family: bebas-neue, sans-serif;
-
-  font-weight: 400;
-  
   font-style: normal;
   margin: 0 auto;
-  font-size: 2.5em;
+  font-size: 3.0em;
   font-weight: 500;
+}
+ 
+ .linear-wipe {
+  background: linear-gradient(to right, #EE7752, #E73C7E, #23A6D5, #23D5AB, #f81cd0, #1cf821, #d1f81c, #f88101);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  animation: gradient 6s linear infinite;
+   @keyframes gradient { 0% {background-position: 0% 50%;} 50% {background-position: 100% 50%;} 100% {background-position: 0% 50%;}}
   
+  }
 
-  img {
+ img {
     height: 1.5em;
     width: auto;
     vertical-align: middle;
     margin-inline-end: $padding-8;
   }
-}
+
 
 .book-menu {
   flex: 0 0 $menu-width;
@@ -138,10 +150,6 @@ ul.pagination {
   a.collapsed {
     display: flex;
     justify-content: space-between;
-
-    &::after {
-      content: "▸";
-    }
   }
 }
 

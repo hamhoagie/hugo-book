@@ -25,12 +25,25 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$color-link: #05b !default;
-$color-visited-link: rgb(100, 100, 100) !default;
+//Colors - hotdog party theme
+$orange: #EE7752 !default;
+$red: #E73C7E !default;
+$blue: #23A6D5 !default;
+$teal: #23D5AB !default;
+$hot-pink: #f81cd0 !default;
+$electric-green: #1cf821 !default;
+$weird-yellow: #d1f81c !default;
+$orange: #f88101 !default;
+
+$color-link: $blue !default;
+//$color-visited-link: rgb(100, 100, 100) !default;
+$color-visited-link: $hot-pink !default;
+
+
 
 
 $body-background: white !default;
-$body-font-color: $black !default;
+$body-font-color: $gray-900 !default;
 $body-font-weight: normal !default;
 
 $body-min-width: 20rem !default;

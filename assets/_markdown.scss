@@ -30,11 +30,20 @@
       display: initial;
     }
   }
+  
 
   h4,
   h5,
   h6 {
     font-weight: bolder;
+  }
+
+  h1.bolder {
+    font-weight: bolder
+  }
+
+  h1.taller {
+    font-size: 2.5rem
   }
 
   h5 {
@@ -43,6 +52,10 @@
 
   h6 {
     font-size: 0.75em;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 
   b,
